@@ -1,0 +1,24 @@
+        .block3{
+            border: none;
+            color: white;
+            padding: 200px 10px;
+            text-align: center;
+        }
+        /* .content {
+            position: relative;
+            z-index: 1;
+            color: white;
+            text-align: center;
+            padding-top: 20vh;
+            height: 100vh;
+            box-sizing: border-box;
+        } */
+        #bg-video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            z-index: -1; /* Puts the video behind the content */
+        }

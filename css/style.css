@@ -1,0 +1,291 @@
+.textbtn1 {
+                background-color: green;
+                color: black;
+                font-size: 15px;
+                padding: 25px 50px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                text-decoration: none;
+            }
+            .textbtn2 {
+                background-color: blue;
+                color: black;
+                font-size: 15px;
+                padding: 25px 50px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                text-decoration: none;
+            }
+            .textbtn3 {
+                background-color: rgb(145, 130, 0);
+                color: black;
+                font-size: 15px;
+                padding: 25px 50px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                text-decoration: none;
+            }
+            .textbtn4 {
+                background-color: red;
+                color: black;
+                font-size: 15px;
+                padding: 25px 50px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                text-decoration: none;
+            }
+            .textbtn5 {
+                background-color: rgb(65, 7, 77);
+                color: black;
+                font-size: 15px;
+                padding: 25px 50px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                text-decoration: none;
+            }
+            .textbtn6 {
+                background-color: limegreen;
+                color: white;
+                font-size: 15px;
+                padding: 12px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+
+            }
+            .textbtn7 {
+                background-color: lightskyblue;
+                color: white;
+                font-size: 15px;
+                padding: 12px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .textbtn8 {
+                background-color: blueviolet;
+                color: white;
+                font-size: 15px;
+                padding: 12px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .textbtn9 {
+                background-color: orange;
+                color: white;
+                font-size: 15px;
+                padding: 12px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            p1 {
+                font-size: 50px;
+            }
+            p2 {
+                font-size: 25px;
+            }
+            p3 {
+                font-size: 25px;
+            }
+            .center {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 200px;
+                
+            }
+            .center2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 0px;
+                color:gold;
+            }
+            .right {
+                display: flex;
+                justify-content: right;
+                align-items: right;
+                height: 10px;
+            }
+            .gap {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            .gap_test{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                background: linear-gradient(45deg, #ff007f, #7f00ff, red);
+            }
+            .gap2 {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            body {
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            justify-content: space-evenly; 
+            align-items: center;     
+            min-height: 100vh;      
+            margin: 0; 
+            transition:background-image 1s ease-in-out;
+            background-size: cover;
+            background-position: center;
+            } 
+            .block2 {
+            display: block;
+            width: 100%;
+            border: none;
+            background-color: black;
+            color: white;
+            padding: 20px 10px;
+            font-size: 16px;
+            cursor: pointer;
+            /* text-align: center; */
+        }
+        .block3{
+            background-image: url('C:/Users/pc/OneDrive/Desktop/html_learn/images/image.png');
+            background-repeat: no-repeat;            
+            background-size: cover; 
+            background-position: center; 
+            border: none;
+            color: white;
+            padding: 300px 10px;
+            text-align: center;
+        }
+        .button {
+            background-color: #aa046a;
+            border: none;
+            color: white;
+            padding: 25px 75px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 25px;
+            margin: 4px 2px;
+            cursor: pointer;
+            }
+            .yellow {
+                animation: colorCycle2 3.5s infinite;
+            }
+            #myVideo {
+            /* position: absolute; */
+            right: 0;
+            bottom: 10;
+            min-width: 120%;
+            min-height: 100%;
+            }
+
+            /* Add some content at the bottom of the video/page */
+            .content {
+            position: absolute;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 100%;
+            padding: 100px;
+            }
+
+            /* Style the button used to pause/play the video */
+            #myBtn {
+            position: absolute;
+            width: 200px;
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            background: #000;
+            color: #fff;
+            cursor: pointer;
+            }
+
+            #myBtn:hover {
+            background: #ddd;
+            color: black;
+            }
+            .WIP{
+            /* padding:25px 50px; */
+            /* font-size: 16px; */
+            color: white;
+            /* border: none;
+            border-radius: 4px;
+            cursor: pointer; */
+            /* Tells the browser to run the "colorCycle" animation every 2 seconds infinitely */
+            animation: colorCycle 3.5s infinite;
+        }
+            @keyframes colorCycle {
+            0%   { background-color: #ff4d4d; } /* Red */
+            25%  { background-color: #4da6ff; } /* Blue */
+            50% { background-color: #f3b406; } /* Back to Red */
+            75% { background-color: #1af306; } /* Back to Red */
+            100% { background-color: #ff4d4d; } /* Back to Red */
+        }
+            @keyframes colorCycle2 {
+            0%   { background-color: #3ef810; } /* Red */
+            25%  { background-color: #ff594d; } /* Blue */
+            50% { background-color: #f3b406; } /* Back to Red */
+            75% { background-color: #4c13a8; } /* Back to Red */
+            100% { background-color: #3ef810; } /* Back to Red */
+        }
+                .center {
+            margin-left: auto;
+            margin-right: auto;
+            border: 6px;
+
+            }
+            table, th, td {
+            border: 3px solid white;
+            border-collapse: collapse;
+            }
+.dropbtn {
+  background-color: #29c0a770;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}

@@ -1,0 +1,1 @@
+alert("we haven't record any useful or good facts about game yet, come back later!")
