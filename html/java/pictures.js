@@ -1,4 +1,4 @@
-const folder_path = '../app_rating_website/images';
+const folder_path = '../images';
 
 const images =[
         `${folder_path}/images.png`, 
