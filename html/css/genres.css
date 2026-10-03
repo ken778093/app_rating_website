@@ -1,0 +1,265 @@
+.btn {
+/* Reset default browser styles */
+appearance: none;
+border: none;
+background: transparent;
+font: inherit;
+cursor: pointer;
+
+/* Layout and dimensions */
+display: inline-flex;
+align-items: center;
+justify-content: center;
+/* padding: 12.5px 250px; */
+border-radius: 8px;
+
+/* Typography */
+font-weight: 600;
+font-size: 1rem;
+text-align: center;
+text-decoration: none;
+line-height: 1;
+
+/* Smooth state changes */
+transition: all 0.2s ease-in-out;
+}
+
+/* Primary style variant */
+.btn-primary {
+background-color: #2563eb; /* Modern royal blue */
+color: #ffffff;
+box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2);
+}
+
+/* Hover state: Brighten and lift slightly */
+.btn-primary:hover {
+background-color: none;
+transform: translatey(-5px);
+box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.3);
+animation: colorCycle 3.5s infinite;
+}
+
+/* Focus state: Crucial for keyboard accessibility */
+.btn-primary:focus-visible {
+outline: 3px solid #93c5fd;
+outline-offset: 2px;
+}
+
+/* Active state: Mimic a physical press */
+.btn-primary:active {
+background-color: #1e40af;
+transform: translateY(1px);
+box-shadow: 0 2px 4px -1px rgba(37, 99, 235, 0.2);
+}
+.textbtn11 {
+    background-color: rgb(211, 20, 185);
+    color: black;
+    font-size: 15px;
+    padding: 25px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.textbtn12 {
+    background-color: rgb(83, 17, 158);
+    color: black;
+    font-size: 15px;
+    padding: 25px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.gap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.gap2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 6px;
+}   
+.p1 {
+    font-size: 25px;
+    text-shadow: 
+        0 0 5px #2bff00,   
+        0 0 10px #2bff00,  
+        0 0 20px #2bff00,  
+        0 0 40px #2bff00;
+}
+.p2{
+    font-size: 25px;
+    text-shadow: 
+        0 0 5px rgb(151, 111, 243),   
+        0 0 10px rgb(151, 111, 243),  
+        0 0 20px rgb(151, 111, 243),  
+        0 0 40px rgb(151, 111, 243),
+        0 0 50px rgb(151, 111, 243);
+}
+.p3{
+    font-size: 25px;
+    text-shadow: 
+        0 0 5px #eeff00,   
+        0 0 10px #eeff00,  
+        0 0 20px #eeff00,  
+        0 0 40px #eeff00;
+}
+.content {
+    position: relative;
+    z-index: 1; /* Ensures text stays in front */
+    color: white;
+    text-align: center;
+    padding-top: 20vh;
+    background: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    box-sizing: border-box;
+}
+/* .content3 {
+    position: relative;
+    z-index: 1; 
+    color: white;
+    text-align: center;
+    padding-top: 20vh;
+    /* background: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    box-sizing: border-box;
+} */
+.content2 {
+    position: relative;
+    z-index: 1; /* Ensures text stays in front */
+    color: white;
+    text-align: center;
+    padding-top: 20vh;
+    background: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    box-sizing: border-box;
+}
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+
+/* Style the background video */
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1; /* Puts the video behind the content */
+}
+@keyframes colorCycle {
+0%   { background-color: #ff4d4d; } /* Red */
+25%  { background-color: #4da6ff; } /* Blue */
+50% { background-color: #f3b406; } /* Back to Red */
+75% { background-color: #1af306; } /* Back to Red */
+100% { background-color: #ff4d4d; } /* Back to Red */
+}
+tr:hover {background-color: rgba(33, 143, 0, 0.644);}
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+td {
+background-color: rgba(46, 55, 92, 0.322);
+padding: 8px;
+text-align: left;
+border: 10px solid #DDD;
+}
+th{
+background-color: rgba(86, 143, 86, 0.425);
+padding: 8px;
+text-align: left;
+border: 10px solid #DDD;
+}
+.testbtn4 {
+background-color: white;
+/* color: white; */
+font-size: 15px;
+padding: 12px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+text-decoration: none;
+}
+.my-button {
+background-color: none; /* Green background */
+color: white;              /* Changes link text color to white */
+padding: 25px 50px;
+text-decoration: none;     /* Removes the default underline */
+display: inline-block;
+}
+
+/* Optional: Change color when the user hovers over it */
+.my-button:hover {
+background-color: none;
+color: #e0e0e0;            /* Light gray text on hover */
+}
+.btn-container a {
+color: red;                /* Changes the link color inside the button */
+text-decoration: none;
+}
+.link{
+text-decoration: none;
+color: black;
+}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
+
