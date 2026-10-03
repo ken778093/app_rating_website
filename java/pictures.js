@@ -1,4 +1,4 @@
-const folder_path = 'C:/Users/pc/OneDrive/Desktop/html_learn/images';
+const folder_path = 'C:/Users/pc/OneDrive/Desktop/html_learn/app_rating_website/images';
 
 const images =[
         `${folder_path}/images.png`, 

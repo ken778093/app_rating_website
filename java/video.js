@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="C:\Users\pc\OneDrive\Desktop\html_learn\css\style.css"></link>
+<link rel="stylesheet" href="C:\Users\pc\OneDrive\Desktop\html_learn\app_rating_website\css\style.css"></link>
 var video = document.getElementById("myVideo");
 
 
